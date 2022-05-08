@@ -1,0 +1,22 @@
+{
+  "name": "pointmotion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server/www.js",
+    "dev": "nodemon ./server/www.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "jsonfile": "^6.1.0",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
